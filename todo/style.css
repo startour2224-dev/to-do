@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto; /* 真ん中に寄せる */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    width: 20%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none; /* ・を消す */
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
